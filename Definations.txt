@@ -2,3 +2,10 @@ Stop words: The words that are used frequently but doesnot contribute much in th
 Structured: CSV and PRK
 Unstructred: text, Binary data or no delimers or no indication of rows like social media post and email put in file.
 Data set is from : SMSSSpamCollection.tsv Its the collection of the text data.
+
+Why Are Regular Expressions Useful?
+• Identifying whitespace between words/tokens
+• Identifying/creating delimiters or end-of-line escape characters
+• Removing punctuation or numbers from your text
+• Cleaning HTML tags from text
+• Identifying some textual patterns you're interested in
