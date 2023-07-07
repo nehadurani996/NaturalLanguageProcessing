@@ -1,0 +1,1 @@
+Stop words: The words that are used frequently but doesnot contribute much in the meaning of the sentence. They are senteiment neutral. We drop them.
