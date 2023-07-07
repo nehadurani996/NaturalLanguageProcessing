@@ -9,3 +9,12 @@ Why Are Regular Expressions Useful?
 • Removing punctuation or numbers from your text
 • Cleaning HTML tags from text
 • Identifying some textual patterns you're interested in
+
+
+For tokenization we use two methods:
+1. Findall(): Findall the words while ignoring the spaces and special characters.
+2. Split(): Split the words without actually knowing the words.
+
+\W or \w is related to words.
+\S or \s is related to spaces.
+
