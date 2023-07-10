@@ -24,3 +24,13 @@ For tokenization we use two methods:
 4th: Vectorize: Converting text to numeric represntation of that text.
 5th: Machine learning algorithm: Fit/train model.
 6th: Apply on the situation (ex: Spam to filter email.) 
+
+Stemming: The process of reducing inflected (or derived) words to their word stem or root.
+cruudely chopping off the end of the word to only the base.
+It reduces the corpus of word the model is exposed to.
+explicitely correlates words with the similar meaning.
+Example:
+stemming/stemmed -> stem
+berries/berry -> berri
+use crude approach and thus not always correct.
+Types: Porter based stemmer, snowball stemmer, lanchaster stemmer, Regex-based stemmer.
