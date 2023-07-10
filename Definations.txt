@@ -42,3 +42,8 @@ Using vocabulary analysis of the word aiming to remove infectional endings to re
 Differnec between lemmatizing and stemming
 stemming: Faster as it simply chops off the end of the word using heuristics, withour any understadng of the context in which the word is used.
 lemmatizing: More accurate as it used more informed analysis to create group of words with similar meaning based on the context around the word. More computational expensive as it also take in account the context.
+
+Vectorize:
+encoding text as integer to create a feature vector.
+Feature vector: 
+A n-dimensional vector of the numeric features that represent some objects.
