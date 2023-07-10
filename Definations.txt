@@ -47,3 +47,4 @@ Vectorize:
 encoding text as integer to create a feature vector.
 Feature vector: 
 A n-dimensional vector of the numeric features that represent some objects.
+Raw data output of the countvectorizer is called sparse matrix which is a matrix in which most entries are 0. In the interest of efficient storage, a sparse matrix will be stored by only storing the locations of the non-zero elements._
