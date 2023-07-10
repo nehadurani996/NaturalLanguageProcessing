@@ -18,3 +18,9 @@ For tokenization we use two methods:
 \W or \w is related to words.
 \S or \s is related to spaces.
 
+1st:Raw text: Model can´t distingused it 
+2nd:Tokenize text: (Tell the model what to look at)
+3rd: Clean data: Remove stop words/puncuation and stemming etc.
+4th: Vectorize: Converting text to numeric represntation of that text.
+5th: Machine learning algorithm: Fit/train model.
+6th: Apply on the situation (ex: Spam to filter email.) 
