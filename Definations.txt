@@ -51,3 +51,8 @@ Raw data output of the countvectorizer is called sparse matrix which is a matrix
 N-grams:
 Create a document-term matrix where counts still occpy the cell but instead of the columns representing single term,
 they rrepresent all combination of adjacent words of length n in your text.
+
+TF-ITF equation:
+create doc term message.
+wi,j number of occurance of word
+N= total number of terms.
