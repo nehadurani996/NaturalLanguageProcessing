@@ -56,3 +56,8 @@ TF-ITF equation:
 create doc term message.
 wi,j number of occurance of word
 N= total number of terms.
+
+Transformation Process:
+1. Determine what range of exponents to test
+2. Apply each transformation to each value of your chosen feature
+3. Use some criteria to determine which of the transformations yield the best distribution
