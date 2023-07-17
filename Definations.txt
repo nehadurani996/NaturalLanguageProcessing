@@ -60,4 +60,7 @@ N= total number of terms.
 Transformation Process:
 1. Determine what range of exponents to test
 2. Apply each transformation to each value of your chosen feature
-3. Use some criteria to determine which of the transformations yield the best distribution
+3. Use some criteria to determine which of the transformations yield the best distribution.
+
+K-fold cross validation:
+The full data set id divided into k-subsets and holdout method is repeated k times. Each time, one of the k-subsets is used as the test set and the other k-1 subeste are put tofather to be used to train the model.
